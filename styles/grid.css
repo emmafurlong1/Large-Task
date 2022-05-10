@@ -1,0 +1,16 @@
+.team {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+#locations {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

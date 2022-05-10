@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggie Walks</title>
+    <link href="styles/styles.css" rel="stylesheet"> 
+    <link href="styles/grid.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero-contact">
+            <div class="hero-text">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">About 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="about.html">About Us</a>
+                  <a href="meettheteam.html">Meet the Team</a>
+                </div>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <script src="scripts/validation.js"></script>
+        <form name="contactform" onsubmit="return validateForm()" method="post">
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" placeholder="First Name"><br/>
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="Email"><br/>
+            <label for="message">Message: </label>
+            <input type="text" id="message" placeholder="Message"><br/>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        <section id="locations">
+            <div><h2>Ormskirk</h2>
+            <p>3-5 St Helens Road<br>
+            Ormskirk<br>
+            L35 4PO</p></div>
+            <div><h2>Southport</h2>
+            <p>150 Lord Street<br>
+            Southport<br>
+            PR9 0NP</p></div>
+            <div><h2>Warrington</h2>
+            <p>47 Old Liverpool Road<br>
+            Warrington<br>
+            WA5 1AF</p></div>
+        </section>
+    </main>
+    <footer>
+        <p>Doggie Walks <br>
+        Phone: 01695 883 112 <br>
+        Email: info@doggiewalks.co.uk</p>
+    </footer>
+</body>
+</html>
